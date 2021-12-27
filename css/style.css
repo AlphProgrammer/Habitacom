@@ -54,7 +54,7 @@ section {
 }
 
 .btn:hover {
-  background: #e7e6f5;
+  background: #aeadb8;
   color: #000;
 }
 
@@ -445,84 +445,6 @@ section {
 
 /*Service Style End*/
 
-/*packages Style Start*/
-
-.packages {
-  background: #eee;
-}
-
-.packages .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
-  gap: 1.5rem;
-}
-
-.packages .box-container .box {
-  text-align: center;
-  background: #fff;
-  border: 0.2rem solid #10221b;
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border-radius: .5rem;
-}
-
-.packages .box-container .box:hover {
-  background: #10221b;
-}
-
-.packages .box-container .box:hover .content > * {
-  color: #fff;
-}
-
-.packages .box-container .box:hover .btn {
-  border-color: #fff;
-}
-
-.packages .box-container .box:hover .btn:hover {
-  background: #fff;
-  color: #10221b;
-}
-
-.packages .box-container .box .image {
-  height: 25rem;
-  overflow: hidden;
-  padding: 2rem;
-  padding-bottom: 0;
-  border-radius: .5rem;
-}
-
-.packages .box-container .box .image img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: .5rem;
-}
-
-.packages .box-container .box .content {
-  padding: 2rem;
-}
-
-.packages .box-container .box .content h3 {
-  font-size: 2rem;
-  color: #10221b;
-}
-
-.packages .box-container .box .content p {
-  font-size: 1.5rem;
-  color: #10221b;
-  padding: 1rem 0;
-  line-height: 2;
-}
-
-.packages .box-container .box .content .price {
-  font-size: 2rem;
-  color: #000;
-}
-
-/*Packages Style end*/
 
 /*Offers Style Start*/
 
@@ -709,85 +631,6 @@ section {
   color: #10221b;
 }
 
-.newsletter .content form {
-  margin-top: 2rem;
-  background: #fff;
-  padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-}
-
-.newsletter .content form h4 {
-  font-size: 2rem;
-  text-align: left;
-  padding: .5rem;
-  margin: .5rem .8rem;
-}
-
-.newsletter .content form .nombre {
-  margin: 1rem 0;
-  font-size: 2.3rem;
-  color: #10221b;
-  padding: 0 1.5rem;
-  background: #efefef;
-  border: .4rem static #000;
-  box-shadow: 0px 5px 5px #000;
-  border-radius: .4rem;
-}
-
-.newsletter .content form .tema {
-  width: 100%;
-  margin: 1rem 0;
-  font-size: 2.3rem;
-  color: #10221b;
-  padding: 0 1.5rem;
-  background: #efefef;
-  border: .4rem static #000;
-  box-shadow: 0px 5px 5px #000;
-  border-radius: .4rem;
-}
-
-.newsletter .content form .email {
-  width: 100%;
-  margin: 1rem 0;
-  font-size: 2.3rem;
-  color: #10221b;
-  padding: 0 1.5rem;
-  background: #efefef;
-  border: .4rem static #000;
-  box-shadow: 0px 5px 5px #000;
-  border-radius: .4rem;
-}
-
-.newsletter .content form .message{
-  width: 100%;
-  margin: 1rem 0 2.5rem 0;
-  font-size: 2.3rem;
-  color: #10221b;
-  padding: 1rem;
-  background: #efefef;
-  border: .4rem static #000;
-  box-shadow: 0px 5px 5px #000;
-  border-radius: .4rem;
-  resize: none;
-}
-
-.newsletter .content form .btn {
-  clear: both;
-  margin: auto;
-  border-radius: 5rem;
-  background: #10221b;
-  color: #fff;
-  width: 50%;
-}
-
-.newsletter .content form .btn:hover {
-  background: none;
-  color: #10221b;
-}
-
 .newsletter .map {
   display: flex;
   justify-content: center;
@@ -808,6 +651,159 @@ section {
 }
 
 
+/*packages Style Start*/
+
+.packages {
+  background: #efe;
+}
+
+.packages .box-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+}
+
+.packages .box-container .box {
+  text-align: center;
+  background: rgb(7, 14, 43);
+  border: 0.2rem solid #10221b;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+}
+
+.packages .box-container .box:hover {
+  background: #010525;
+}
+
+.packages .box-container .box:hover .btn {
+  border-color: #000;
+}
+
+.packages .box-container .box:hover .btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.packages .box-container .box .image {
+  height: 25rem;
+  overflow: hidden;
+  padding: 2rem;
+  padding-bottom: 0;
+  border-radius: .5rem;
+}
+
+.packages .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: .5rem;
+}
+
+.packages .box-container .box .content {
+  padding: 2rem;
+}
+
+.packages .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #efe;
+}
+
+.packages .box-container .box .content p {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+.packages .box-container .box .content h3 :hover {
+  color: #000;
+}
+
+.packages .box-container .box .content .price {
+  font-size: 2rem;
+  color: #000;
+}
+
+.packages .content form {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.packages .content form h4 {
+  font-size: 2rem;
+  padding: .5rem;
+  margin: .5rem .8rem;
+}
+
+.packages .content form .nombre {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #10221b;
+  padding: 0 1.5rem;
+  background: #efefef;
+  border: .4rem static #000;
+  box-shadow: 0px 5px 5px #000;
+  border-radius: .4rem;
+}
+
+.packages .content form .tema {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #10221b;
+  padding: 0 1.5rem;
+  background: #efefef;
+  border: .4rem static #000;
+  box-shadow: 0px 5px 5px #000;
+  border-radius: .4rem;
+}
+
+.packages .content form .email {
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #10221b;
+  padding: 0 1.5rem;
+  background: #efefef;
+  border: .4rem static #000;
+  box-shadow: 0px 5px 5px #000;
+  border-radius: .4rem;
+}
+
+.packages .content form .message{
+  width: 100%;
+  margin: 1rem 0 2.5rem 0;
+  font-size: 1.5rem;
+  color: #10221b;
+  padding: 1rem;
+  background: #efefef;
+  border: .4rem static #000;
+  box-shadow: 0px 5px 5px #000;
+  border-radius: .4rem;
+  resize: none;
+}
+
+.packages .content form .btn {
+  clear: both;
+  margin: auto;
+  border-radius: 5rem;
+  background: #010525;
+  color: #efe;
+}
+
+/*Packages Style end*/
+
+
  /*footer section start*/
 
 
@@ -817,13 +813,14 @@ section {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .footer .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+      grid-template-columns: repeat(minmax(35rem, 1fr));
+      margin: auto;
   gap: 1.5rem;
 }
 
@@ -831,6 +828,7 @@ section {
   font-size: 2rem;
   padding: 1.5rem 0;
   color: #fff;
+  text-align: center;
 }
 
 .footer .box-container .box a {
@@ -854,12 +852,14 @@ section {
 }
 
 .footer .credit {
+  clear: both;
   text-align: center;
   margin-top: 2.5rem;
   padding: 1rem;
   padding-top: 2.5rem;
   font-size: 2rem;
   color: #fff;
+  width: 100%;
 }
 
 .footer .credit span {
