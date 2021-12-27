@@ -1,0 +1,134 @@
+/*Home Style Start*/
+
+.home {
+    padding: 0;
+  }
+  
+  .home .box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(40rem, 3fr));
+    gap: 2rem;
+    background-size: cover !important;
+    background-position: center !important;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 2rem 9%;
+    height: 100vh;
+  }
+  
+  .home .box .content2, .content3 {
+    width: 50rem;
+    text-transform: capitalize;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .box .content1{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .home .box .allies {
+    margin: auto;
+  }
+
+  .home .box .allies .first img {
+    margin: 1rem;
+      width: 18rem;
+      gap: 2rem;
+  }
+
+  .home .box .allies .middel img {
+    margin: 1rem;
+      width: 38rem;
+  }
+
+  .home .box .allies .last img{
+    margin: 1rem;
+      width: 18rem;
+  }
+
+  .home .box .content1, .content3, span {
+    font-size: 8rem;
+    color: rgb(156, 6, 9);
+  }
+
+  .home .box .content1 .offer{
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 8rem;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+  
+  .home .box .content2, span {
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(193, 2, 6, 1);
+  }
+  
+  .home .box .content1, .content3, h3 {
+    font-size: 4rem;
+    color: rgba(4, 31, 89, 1);
+    text-transform: uppercase;
+  }
+  .home .box .content2 h3 {
+    font-size: 6rem;
+    color: rgba(4, 31, 89, 1);
+    padding-top: .5rem;
+    text-transform: uppercase;
+  }
+  
+  .home .box .content1, .content3 .copy {
+    line-height: 2;
+    color: rgba(35, 35, 51, 0.932);
+    font-size: 1.5rem;
+    text-transform: none;
+  }
+  
+  .home .box .content2 .copy {
+    padding-left: 1;
+    line-height: 2;
+    color: rgba(7, 7, 7, 0.932);
+    font-size: 1.5rem;
+    padding: 1.2rem;
+  }
+  
+  
+  .home .box p {
+    background: rgba(200,200,200,0.8);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    color: #000;
+    box-shadow: 10px 10px 10px #000;
+    margin: 2rem;
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 3rem;
+    color: #f5f6ff;
+  }
+  
+  /*Home Style End*/
+  
